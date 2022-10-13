@@ -35,17 +35,19 @@ A ideia dessa pasta é agrupar todos os conhecimentos adquiridos durante as aula
   * *podcast.py*: Extrair todos os episódios de podcast do site *portalcafebrasil* e inserir num dataframe com colunas de nome e descrição.
     🎯 Atingindo os **objetivos**:
     * Coletar dados do site.
-    * Utilizar o `BeaufifulSoup` para extrair informações de html do site.
+    * Utilizar o `BeautifulSoup` para extrair informações de html do site.
     * Utilizar o Google Inspect.
     * Criar logs para acompanhamento dos dados ingeridos.
     * Criar dataframe e inserir os dados extraídos do site.
     * Salvar o arquivo em .csv.
+    📖 **Bibliotecas** utilizadas: `requests`, `bs4`, `logging` e `pandas`.
+
    * *imoveis.py*: Extrair os 9.500 apartamentos para venda mais atualizados de João Pessoa do site Viva Real e inserir as informações num dataframe.
     🎯 Atingindo os **objetivos**:
       * Coletar dados do site.
       * Utilizar o Google Inspect.
       * Utilizar o `Thunder Client` (extensão do VSCode) para organizar informações extraídas do retorno da API.
-      * Utilizar o `BeaufifulSoup` dentro da minha funçõa para retirar informações do html extraído pelo `Thunder Client`.
+      * Utilizar o `BeautifulSoup` dentro da minha funçõa para retirar informações do html extraído pelo `Thunder Client`.
       * Evitar timeout de requisições.
       * Criar dataframe e inserir os dados extraídos do site.
       * Salvar o arquivo em .csv.
