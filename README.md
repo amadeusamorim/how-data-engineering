@@ -40,6 +40,7 @@ A ideia dessa pasta é agrupar todos os conhecimentos adquiridos durante as aula
     * Criar logs para acompanhamento dos dados ingeridos.
     * Criar dataframe e inserir os dados extraídos do site.
     * Salvar o arquivo em .csv.
+
     📖 **Bibliotecas** utilizadas: `requests`, `bs4`, `logging` e `pandas`.
 
    * *imoveis.py*: Extrair os 9.500 apartamentos para venda mais atualizados de João Pessoa do site Viva Real e inserir as informações num dataframe.
