@@ -7,3 +7,5 @@ A ideia dessa pasta é agrupar todos os conhecimentos adquiridos durante as aula
 
 * **A001 (Fundamentos da Engenharia de dados)**: 
 * **A002 (Fundamentos da Ingestão de dados)**: 
+
+*🚧 Em atualização 🚧*
