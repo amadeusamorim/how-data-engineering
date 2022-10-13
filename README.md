@@ -42,13 +42,13 @@ A ideia dessa pasta é agrupar todos os conhecimentos adquiridos durante as aula
     * Salvar o arquivo em .csv.
    * *imoveis.py*: Extrair os 9.500 apartamentos para venda mais atualizados de João Pessoa do site Viva Real e inserir as informações num dataframe.
     🎯 Atingindo os **objetivos**:
-    * Coletar dados do site.
-    * Utilizar o Google Inspect.
-    * Utilizar o `Thunder Client` (extensão do VSCode) para organizar informações extraídas do retorno da API.
-    * Utilizar o `BeaufifulSoup` dentro da minha funçõa para retirar informações do html extraído pelo `Thunder Client`.
-    * Evitar timeout de requisições.
-    * Criar dataframe e inserir os dados extraídos do site.
-    * Salvar o arquivo em .csv.
+      * Coletar dados do site.
+      * Utilizar o Google Inspect.
+      * Utilizar o `Thunder Client` (extensão do VSCode) para organizar informações extraídas do retorno da API.
+      * Utilizar o `BeaufifulSoup` dentro da minha funçõa para retirar informações do html extraído pelo `Thunder Client`.
+      * Evitar timeout de requisições.
+      * Criar dataframe e inserir os dados extraídos do site.
+      * Salvar o arquivo em .csv.
 
     📖 **Bibliotecas** utilizadas: `os`, `wsgiref.validate`, `pyparsing`, `requests`, `bs4`, `pandas`, `wcwidth`, `json` e `time`.
 
