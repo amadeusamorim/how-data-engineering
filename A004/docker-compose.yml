@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: postgres # Uso o banco de dados do postgres
+    container_name: "pg_container"
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=test_db
+    ports:
+      - "5432:5432" # Porta que o postgres utiliza
+    volumes:
+      - "./db:/var/lib/postgresql/data/" # O meu volume db na pasta local reflete na pasta padrão do postgres no meu container
