@@ -22,7 +22,10 @@ SELECT t1."date"
 	,t1.artist
 	,t1.song 
 FROM PUBLIC."Billboard" AS t1
-where t1.artist like 'Nirvana%'
+where t1.artist like 'Nirvana'
 order by t1.artist, t1.song, t1."date"
 );
 '''
+
+# Executa o comando acima na tabela
+engine.execute(sql)
