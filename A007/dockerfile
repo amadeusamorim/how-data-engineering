@@ -1,0 +1,12 @@
+# Crio uma imagem baseada no jenkins
+FROM jenkins/jenkins
+# Acesso como root
+USER root
+# Atualizo meus repositórios
+RUN apt-get update
+# Instalo o python e o pip
+RUN apt-get install -y python3-pip
+# Copio o meu arquivo requirements para minha imagem
+COPY ./cambio/requirements.txt .
+# Instalo os requirements
+RUN pip install -r requirements.txt
